@@ -1,0 +1,55 @@
+[
+    {
+      "name": "Bit-Search",
+      "url": "https://bitsearch.to/search?q=",
+      "type": "HTML",
+      "itemKey": ".search-result a[href^='magnet']",
+      "torrentNameKey": "somkey",
+      "itemType": "MAGNET"
+    },
+    {
+      "name": "BtDigg",
+      "url": "https://btdig.com/search?order=2&q=",
+      "type": "HTML",
+      "itemKey": ".one_result a[href^='magnet']",
+      "torrentNameKey": "somkey",
+      "itemType": "MAGNET"
+    },
+    {
+      "name": "BtDigg",
+      "url": "https://btdig.com/search?order=0&q=",
+      "type": "HTML",
+      "itemKey": ".one_result a[href^='magnet']",
+      "torrentNameKey": "somkey",
+      "itemType": "MAGNET"
+    },
+    {
+      "name": "Lime-Torrents",
+      "url": "https://www.limetorrents.lol/search/all/",
+      "type": "HTML",
+      "itemKey": ".tt-name a[href^='http://itorrents.org']",
+      "torrentNameKey": ".tt-name a[href^='/']",
+      "itemType": "CUSTOM_HASH",
+      "customInfoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
+      "trackers": ""
+    },
+    {
+      "name": "Pirate Bay",
+      "url": "https://apibay.org/q.php?cat=200&q=",
+      "type": "JSON",
+      "itemKey": "info_hash",
+      "itemType": "INFO_HASH",
+      "torrentNameKey": "name",
+      "trackers": ""
+    },
+    {
+      "name": "Torrents-CSV",
+      "url": "https://torrents-csv.com/service/search?size=50&q=",
+      "type": "JSON",
+      "itemKey": "infohash",
+      "itemType": "INFO_HASH",
+      "listKey": "torrents",
+      "torrentNameKey": "name",
+      "trackers": ""
+    }
+  ]
