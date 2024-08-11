@@ -52,5 +52,15 @@
     "listKey": "torrents",
     "torrentNameKey": "name",
     "trackers": ""
+  },
+  {
+    "name": "BT52",
+    "url": "https://www.529055.xyz//search-%s-0-0-1.html",
+    "type": "HTML",
+    "itemKey": ".ssbox .title a[href^='/hash/']",
+    "torrentNameKey": ".ssbox .title a[href^='/']",
+    "itemType": "CUSTOM_HASH",
+    "customInfoHashRegExp": "\\/hash\\/([^/]+)\\.html",
+    "trackers": ""
   }
 ]
