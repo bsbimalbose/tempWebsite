@@ -15,7 +15,7 @@
   },
   {
     "name": "BtDigg",
-    "url": "https://btdig.com/search?order=0&p=1&q=%s",
+    "url": "https://btdig.com/search?order=0&q=%s+4k",
     "type": "html",
     "itemType": "magnet",
     "magnetTargetKey": ".one_result a[href^='magnet']|href"
