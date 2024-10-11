@@ -94,6 +94,5 @@
     "torrentNameTargetKey": ".ssbox .title a[href^='/']|text",
     "itemType": "info_hash",
     "infoHashRegExp": "\\/hash\\/([^/]+)\\.html"
-  },
-
+  }
 ]
