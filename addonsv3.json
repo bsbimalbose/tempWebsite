@@ -1,61 +1,5 @@
 [
-  {
-    "name": "Bit-Search",
-    "url": "https://bitsearch.to/search?q=%s",
-    "type": "html",
-    "magnetTargetKey": ".search-result a[href^='magnet']|href",
-    "itemType": "magnet"
-  },
-  {
-    "name": "BtDigg",
-    "url": "https://btdig.com/search?order=0&q=%s",
-    "type": "html",
-    "itemType": "magnet",
-    "magnetTargetKey": ".one_result a[href^='magnet']|href"
-  },
-  {
-    "name": "BtDigg",
-    "url": "https://btdig.com/search?order=0&q=%s+4k",
-    "type": "html",
-    "itemType": "magnet",
-    "magnetTargetKey": ".one_result a[href^='magnet']|href"
-  },
-  {
-    "name": "Pirate Bay",
-    "url": "https://apibay.org/q.php?cat=200&q=%s",
-    "type": "json",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "info_hash",
-    "torrentNameTargetKey": "name"
-  },
-  {
-    "name": "Lime-Torrents",
-    "url": "https://www.limetorrents.lol/search/all/%s",
-    "type": "html",
-    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
-    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
-    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
-    "itemType": "info_hash"
-  },
-  {
-    "name": "Torrents-CSV",
-    "url": "https://torrents-csv.com/service/search?size=50&q=%s",
-    "type": "json",
-    "infoHashTargetKey": "infohash",
-    "itemType": "info_hash",
-    "jsonResultsKey": "torrents",
-    "torrentNameTargetKey": "name"
-  },
-  {
-    "name": "BT52",
-    "url": "https://www.529055.xyz//search-%s-0-0-1.html",
-    "type": "html",
-    "infoHashTargetKey": ".ssbox .title a[href^='/hash/']|href",
-    "torrentNameTargetKey": ".ssbox .title a[href^='/']|text",
-    "itemType": "info_hash",
-    "infoHashRegExp": "\\/hash\\/([^/]+)\\.html"
-  },
-   {
+     {
     "name":"T-TV",
     "url":"https://torrentio.strem.fun/sort=qualitysize|limit=20/stream/series/%imdbId.json",
     "type":"json_imdb",
@@ -94,5 +38,62 @@
     "itemType":"info_hash",
     "jsonResultsKey":"streams",
     "torrentNameTargetKey":"behaviorHints.filename"
-  }
+  },
+    {
+    "name": "Pirate Bay",
+    "url": "https://apibay.org/q.php?cat=200&q=%s",
+    "type": "json",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "name"
+  },
+  {
+    "name": "Lime-Torrents",
+    "url": "https://www.limetorrents.lol/search/all/%s",
+    "type": "html",
+    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
+    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
+    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
+    "itemType": "info_hash"
+  },
+  {
+    "name": "Torrents-CSV",
+    "url": "https://torrents-csv.com/service/search?size=50&q=%s",
+    "type": "json",
+    "infoHashTargetKey": "infohash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "torrents",
+    "torrentNameTargetKey": "name"
+  },
+  {
+    "name": "Bit-Search",
+    "url": "https://bitsearch.to/search?q=%s",
+    "type": "html",
+    "magnetTargetKey": ".search-result a[href^='magnet']|href",
+    "itemType": "magnet"
+  },
+  {
+    "name": "BtDigg",
+    "url": "https://btdig.com/search?order=0&q=%s",
+    "type": "html",
+    "itemType": "magnet",
+    "magnetTargetKey": ".one_result a[href^='magnet']|href"
+  },
+  {
+    "name": "BtDigg",
+    "url": "https://btdig.com/search?order=0&q=%s+4k",
+    "type": "html",
+    "itemType": "magnet",
+    "magnetTargetKey": ".one_result a[href^='magnet']|href"
+  },
+  {
+    "name": "BT52",
+    "url": "https://www.529055.xyz//search-%s-0-0-1.html",
+    "type": "html",
+    "infoHashTargetKey": ".ssbox .title a[href^='/hash/']|href",
+    "torrentNameTargetKey": ".ssbox .title a[href^='/']|text",
+    "itemType": "info_hash",
+    "infoHashRegExp": "\\/hash\\/([^/]+)\\.html"
+  },
+
 ]
