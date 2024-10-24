@@ -95,28 +95,5 @@
     "type": "html",
     "magnetTargetKey": ".search-result a[href^='magnet']|href",
     "itemType": "magnet"
-  },
-  {
-    "name": "BtDigg",
-    "url": "https://btdig.com/search?order=0&q=%s",
-    "type": "html",
-    "itemType": "magnet",
-    "magnetTargetKey": ".one_result a[href^='magnet']|href"
-  },
-  {
-    "name": "BtDigg",
-    "url": "https://btdig.com/search?order=0&q=%s+4k",
-    "type": "html",
-    "itemType": "magnet",
-    "magnetTargetKey": ".one_result a[href^='magnet']|href"
-  },
-  {
-    "name": "BT52",
-    "url": "https://www.529055.xyz//search-%s-0-0-1.html",
-    "type": "html",
-    "infoHashTargetKey": ".ssbox .title a[href^='/hash/']|href",
-    "torrentNameTargetKey": ".ssbox .title a[href^='/']|text",
-    "itemType": "info_hash",
-    "infoHashRegExp": "\\/hash\\/([^/]+)\\.html"
   }
 ]
